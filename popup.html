@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/dist/popup.js"></script>
+    <style>
+        body{
+            width: fit-content;
+            height: fit-content;
+        }
+        /* styles.css */
+        .copy-box {
+            /* width: 300px; */
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px auto;
+            cursor: pointer;
+            /* Add cursor style to indicate it's clickable */
+        }
+
+        #text-box.copied {
+            background-color: #c4ffc4;
+            /* Change background color when copied */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="copy-box" id="text-box">
+
+    </div>
+</body>
+
+</html>

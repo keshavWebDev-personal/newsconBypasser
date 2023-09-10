@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "newsconBypasser",
+    "description": "Never ever wait a sec for the download link",
+    "version": "0.0.1",
+    "icons": {
+        "128": "icon/icon_128.png"
+    },
+    "action": {
+        "default_title": "Chrome Addon v3 Starter",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
